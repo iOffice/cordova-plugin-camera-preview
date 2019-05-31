@@ -44,6 +44,8 @@
   </platform>
 
   <platform name="ios">
+    <resource-file src="img/overlay.png" target="overlay.png" />
+
     <config-file target="config.xml" parent="/*">
       <feature name="CameraPreview">
         <param name="ios-package" value="CameraPreview" onload="true" />
