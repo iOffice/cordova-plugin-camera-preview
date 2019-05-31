@@ -70,6 +70,7 @@
       
       [self.webView.superview insertSubview: self.overlayImageView aboveSubview:self.cameraRenderController.view];
       [self.webView.superview bringSubviewToFront: self.overlayImageView];
+      [self.overlayImageView setHidden:NO];
       // Setup session
       self.sessionManager.delegate = self.cameraRenderController;
 
